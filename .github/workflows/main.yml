@@ -48,4 +48,5 @@ jobs:
            cf_password: ${{ secrets.CF_PASSWORD }}
            cf_org: ${{ secrets.CF_ORG }}
            cf_space: ${{ secrets.CF_SPACE }}
-           command: deploy ./mta-intro_0.0.1.mtar -f
+           #command: deploy ./mta-intro_0.0.1.mtar -f
+           command: target
